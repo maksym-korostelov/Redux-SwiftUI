@@ -10,9 +10,33 @@
 		A034526C2D70E90000571B3E /* Redux-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Redux-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A03452962D70EB5B00571B3E /* Exceptions for "Redux-SwiftUI" folder in "Redux-SwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Redux/Reducer.swift,
+			);
+			target = A034526B2D70E90000571B3E /* Redux-SwiftUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		A03452972D70EB5B00571B3E /* Exceptions for "Redux-SwiftUI" folder in "Copy Bundle Resources" phase from "Redux-SwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = A034526A2D70E90000571B3E /* Resources */;
+			membershipExceptions = (
+				Redux/Reducer.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A034526E2D70E90000571B3E /* Redux-SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A03452962D70EB5B00571B3E /* Exceptions for "Redux-SwiftUI" folder in "Redux-SwiftUI" target */,
+				A03452972D70EB5B00571B3E /* Exceptions for "Redux-SwiftUI" folder in "Copy Bundle Resources" phase from "Redux-SwiftUI" target */,
+			);
 			path = "Redux-SwiftUI";
 			sourceTree = "<group>";
 		};
